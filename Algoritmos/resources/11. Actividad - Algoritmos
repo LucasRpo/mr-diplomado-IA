@@ -1,0 +1,12 @@
+Diseñe el diagrama de flujo y pseudocódigo de los siguientes enunciados:
+
+1. Realizar un algoritmo que lea y muestre el nombre, apellido, sexo, y estado civil de una persona.
+2. Realizar un algoritmo que lea y muestre el sexo y estado civil de una persona.
+3. Realizar un algoritmo que lea 3 números y los divida por 3.
+4. Realizar un algoritmo que lea la edad de una persona e imprima el nombre y dicha edad.
+5. Realizar un algoritmo que calcule el área de un rectángulo.
+6. Realizar un algoritmo que multiplique 3 números y los sume.
+7. Realizar un algoritmo que reste 2 números y saque su promedio.
+8. Realizar un algoritmo que calcule el perímetro de un rombo.
+9. Realizar un algoritmo que muestre el área y el perímetro de un circulo.
+10. Realizar un algoritmo que calcule y muestre el perímetro de un polígono irregular.
