@@ -92,8 +92,9 @@ public class DiplomatIA {
         //nestedConditionals.showIfTheNumberIsPositiveNullOrNegative();
 
         //Execute point Nine
+        //nestedConditionals.positiveIntegerOfUpToThreeDigits();
 
         //Execute point Ten
-        nestedConditionals.takeATrainingTest();
+        //nestedConditionals.takeATrainingTest();
     }
 }

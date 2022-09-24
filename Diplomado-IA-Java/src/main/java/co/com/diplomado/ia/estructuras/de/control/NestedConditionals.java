@@ -91,9 +91,19 @@ public class NestedConditionals {
      * Confeccionar un programa que permita cargar un número entero positivo de hasta tres cifras y muestre un mensaje
      * indicando si tiene 1, 2, o 3 cifras. Mostrar un mensaje de error si el número de cifras es mayor.
      * Punto 9 de la actividad de condicionales Anidadas
-     * TODO: realizar punto 9
      */
     public void positiveIntegerOfUpToThreeDigits(){
+        System.out.println("Ingrese un numero entero positivo" );
+        int num = scanner.nextInt();
+
+        if(num < 10){
+            System.out.println("Tiene un digito" );
+        }else if(num < 100){
+            System.out.println("Tiene dos digitos" );
+        }else if(num < 1000){
+            System.out.println("Tiene tres digitos" );
+        }else
+            System.out.println("Error en la entrada del dato");
 
     }
 
