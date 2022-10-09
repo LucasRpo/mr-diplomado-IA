@@ -19,10 +19,11 @@ Se encuentran las clases con las soluciones de la actividad
 
 ### Array
 Dentro de la carpeta `co.com.diplomado.ia.array`,
-Se encuentran las clases con las soluciones de la actividad
+Se encuentran las clase con las soluciones de la actividad
 
 
 ## Probar Metodos 
-Para probar cada metodo se deben dirigir al metodo principal
+Para probar cada metodo se deben dirigir al metodo principal 
+`java/co/com/diplomado/ia/DiplomatIA.java`
 y descomentar el punto que desea probar y 
 comentar los metodos que no deseen probar
