@@ -106,7 +106,7 @@ public class DiplomatIA {
         Array array = new Array();
 
         //Execute point One Array's
-        //array.pointOneArray();
+        array.pointOneArray();
 
         //Execute point Two Array's
         //array.pointTwoArray();
@@ -124,7 +124,7 @@ public class DiplomatIA {
         //array.pointSixArray();
 
         //Execute point Seven Array's
-        array.pointSevenArray();
+        //array.pointSevenArray();
 
     }
 }

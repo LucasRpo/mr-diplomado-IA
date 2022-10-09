@@ -5,6 +5,7 @@ import java.util.*;
 public class Array {
 
     Scanner scanner = new Scanner(System.in);
+    Random random = new Random();
 
     /**
      * Elaborar una  clase  que  permita  leer  una  matriz  de m * m  se  debe  de  llenar aleatoriamente,
@@ -29,7 +30,7 @@ public class Array {
         System.out.println("Matriz");
         for (int x=0; x < matriz.length; x++) {
             for (int y=0; y < matriz[x].length; y++) {
-                matriz[x][y] = (int) (Math.random()*9+1);
+                matriz[x][y] = (random.nextInt(9+1));
                 a[cont] = matriz[x][y];// Creamos un vector basado en la matriz
                 cont++;
                 System.out.print("|" + matriz[x][y]);
@@ -69,9 +70,9 @@ public class Array {
         System.out.println();
         System.out.println("Arreglo");
         for(int x=0; x < a.length; x++){
-            System.out.print("|" + a[x]);
+            System.out.println("|" + a[x]);
         }
-        System.out.println();
+        System.out.println("|");
 
         int[] sortedDesc = Arrays.stream(a)
                 .boxed()
@@ -94,7 +95,7 @@ public class Array {
         List<Integer> number = new ArrayList<>();
 
         while (count < 15) {
-            nRandom = (int) (Math.random() * 49 + 1);
+            nRandom = (random.nextInt(49 + 1) );
             if (number.indexOf(nRandom) < 0) {
                 number.add(nRandom);
                 count++;
@@ -117,7 +118,7 @@ public class Array {
         int[] array = new int[50];
 
         for (int i = 0; i < array.length; i++){
-            array[i] = (int) (Math.random()*9+1);
+            array[i] = random.nextInt(9+1);
             suma = suma + array[i];
         }
 
@@ -205,7 +206,7 @@ public class Array {
     public void pointSixArray(){
         System.out.println("Point Six Arrays");
 
-        int array[] = new int[10];
+        int[] array = new int[10];
 
         for(int i = 0; i < array.length; i++){
             System.out.println("Ingrese un número");
@@ -235,14 +236,14 @@ public class Array {
         System.out.println("Matriz");
         for (int x=0; x < matriz.length; x++) {
             for (int y=0; y < matriz[x].length; y++) {
-                matriz[x][y] = (int) (Math.random()*9+1);
+                matriz[x][y] = random.nextInt(9+1);
                 System.out.print("|" + matriz[x][y]);
                 suma = suma + matriz[x][y];
             }
             System.out.println("|");
         }
 
-        average = suma / 12;
+        average = suma / 12f;
 
         System.out.println("Promedio: " + average);
         System.out.println("Números mayores que el promedios: ");
