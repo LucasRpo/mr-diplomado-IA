@@ -1,5 +1,6 @@
 package co.com.diplomado.ia;
 
+import co.com.diplomado.ia.array.Array;
 import co.com.diplomado.ia.estructuras.de.control.NestedConditionals;
 import co.com.diplomado.ia.estructuras.de.control.SimpleAndCompoundConditionals;
 import co.com.diplomado.ia.operadores.*;
@@ -14,11 +15,11 @@ public class DiplomatIA {
          */
 
         //Declaracion de clases de Operadores
-        Calculate calculate = new Calculate();
+        /*Calculate calculate = new Calculate();
         Persona persona = new Persona();
         AveragePlusAddition averagePlusAddition = new AveragePlusAddition();
         CalculateGeometry calculateGeometry = new CalculateGeometry();
-        SalaryOfAWorker salary = new SalaryOfAWorker();
+        SalaryOfAWorker salary = new SalaryOfAWorker();*/
 
         //Run point One
         //calculate.mathematicalOperations();
@@ -60,8 +61,8 @@ public class DiplomatIA {
          */
 
         //Declaracion de clases de Estructuras de Control
-        SimpleAndCompoundConditionals simpleAndCompoundConditionals = new SimpleAndCompoundConditionals();
-        NestedConditionals nestedConditionals = new NestedConditionals();
+        //SimpleAndCompoundConditionals simpleAndCompoundConditionals = new SimpleAndCompoundConditionals();
+        //NestedConditionals nestedConditionals = new NestedConditionals();
 
         //Execute point One
         //simpleAndCompoundConditionals.payTaxes();
@@ -96,5 +97,34 @@ public class DiplomatIA {
 
         //Execute point Ten
         //nestedConditionals.takeATrainingTest();
+
+
+        /**
+         * Puntos de la actividad de Arrays
+         */
+        //Declaracion de clases de Array
+        Array array = new Array();
+
+        //Execute point One Array's
+        //array.pointOneArray();
+
+        //Execute point Two Array's
+        //array.pointTwoArray();
+
+        //Execute point Three Array's
+        //array.pointThreeArray();
+
+        //Execute point Four Array's
+        //array.pointFourArray();
+
+        //Execute point Five Array's
+        //array.pointFiveArray();
+
+        //Execute point Six Array's
+        //array.pointSixArray();
+
+        //Execute point Seven Array's
+        array.pointSevenArray();
+
     }
 }

@@ -15,6 +15,12 @@ referente al punto de la actividad a solucionar.
 
 ### Estructural de Control
 Dentro de la carpeta `co.com.diplomado.ia.estrcturas.de.control`,
+Se encuentran las clases con las soluciones de la actividad
+
+### Array
+Dentro de la carpeta `co.com.diplomado.ia.array`,
+Se encuentran las clases con las soluciones de la actividad
+
 
 ## Probar Metodos 
 Para probar cada metodo se deben dirigir al metodo principal
